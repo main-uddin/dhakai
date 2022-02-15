@@ -1,0 +1,119 @@
+.card-wrapper {
+  width: 350px;
+  height: 300px;
+  margin: 0 21px 20px 0;
+  padding: 7px 7px 23px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  position: relative;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.img-container :first-child {
+  margin: 0 3px 0 0;
+}
+
+.img-container :last-child {
+  margin: 0 0 0 3px;
+}
+
+.over-flow-img-container {
+  margin-top: -50px;
+}
+
+.card-title {
+  width: 180px;
+  height: 24px;
+  margin: 0px 93px 8px 15px;
+  font-family: SFUIDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2a2a2e;
+  white-space: nowrap;
+}
+.card-info {
+  display: flex;
+  /* margin-left: 15px; */
+}
+.card-country {
+  width: 117px;
+  height: 16px;
+  margin: 8px 8px 6px 15px;
+  font-family: SFUIDisplay;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #63636a;
+}
+.card-qty {
+  width: 81px;
+  height: 16px;
+  margin: 8px 56px 6px 8px;
+  font-family: SFUIDisplay;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #01896a;
+  white-space: nowrap;
+}
+.card-category {
+  width: 230px;
+  height: 16px;
+  margin: 6px 43px 25px 15px;
+  font-family: SFUIDisplay;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #63636a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 32px;
+  margin: 25px 5px 0 15px;
+  /* padding: 8px 20px 8px 22px; */
+  border-radius: 50rem;
+  background-color: #d1ffd0;
+
+  font-family: SFUIDisplay;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #01896a;
+}

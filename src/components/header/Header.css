@@ -1,0 +1,90 @@
+.header__wrapper {
+  height: 80px;
+  padding: 13px 50px;
+  background-color: #01896a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+
+  font-family: SFUIDisplay;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.header-toggle__btn {
+  margin-left: 80px;
+  background: #00775c;
+  padding: 12px 20px 12px 5px;
+  border-radius: 50rem;
+  box-shadow: 0 2px 0 0 #009d79;
+  color: #fff;
+}
+
+.btn-explore {
+  width: 80px;
+  height: 34px;
+  margin: 5px 10px 0 0;
+  padding: 9px 14px 9px 17px;
+  border-radius: 17px;
+  box-shadow: 0 2px 0 0 #006c53, inset 0 2px 0 0 #009d79;
+  background-color: #009372;
+  color: #fff;
+}
+.header__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.msg-notification {
+  background: #ac0000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -7px;
+  right: 3px;
+  /* left: 130%; */
+  z-index: 10000;
+  color: #fff;
+}
+
+.crocodile-icon {
+  width: 62px;
+  height: 62px;
+  object-fit: contain;
+  margin-bottom: -10px;
+}
+
+.header-input__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 50rem;
+  width: 30%;
+}
+
+.input-search-icon {
+  padding: 0px 10px;
+}
+
+.header-input__wrapper > input {
+  width: 100%;
+  border: none;
+}
+
+.header-input__wrapper > input:focus {
+  outline: none;
+}
